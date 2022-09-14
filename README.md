@@ -11,7 +11,8 @@ node version v16.16.0
 
 ## 1. Steps to run
  npm install
- num start
+
+ npm start
 
  Access the application using http://localhost:3000/
 
