@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #af0000 !important;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto;
+  background: papayawhip;
+}
+
+.image-gallery {
+  padding: 24px;
+  box-shadow: 0px 1px 3px 0px rgb(0 0 0 / 50%), 0px 1px 1px 0px rgb(0 0 0 / 50%), 0px 2px 1px -1px rgb(0 0 0 / 50%);
+
+  ul {
+    width: 650px;
+
+    li {
+      margin-top: 10px;
+
+      img {
+        height: 162px;
+        width: 200px;
+        min-height: 100%;
+        min-width: 100%;
+      }
+    }
+  }
+}
+
+.actions {
+  position: absolute;
+  z-index: 1001;
+  right: 5px;
+  cursor: pointer;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin-top: 30px;
+  text-align: left;
+  margin: 0 auto;
+  max-width: 330px;
+}
+
+.MuiFormControl-marginNormal {
+  width: 50%;
+  float: right;
+}
+
+.MuiBox-root {
+  text-align: left;
+  font-weight: bold;
+}
